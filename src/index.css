@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  .moon{
+    @apply dark:text-white dark:bg-zinc-800/75  bg-white  ;
+  }
+  
+  .main{
+    @apply  sm:mx-auto py-4;
+  }
+  .nav{
+   @apply brightness-110   hover:text-teal-600 dark:hover:text-teal-300      p-2 ; 
+  }
+  .activeNav{
+    @apply brightness-110  text-teal-600 dark:text-teal-300  hover:text-teal-600 dark:hover:text-teal-300   p-2
+  }
+  .icons{
+    @apply group-hover:fill-teal-600 dark:group-hover:fill-teal-300  stroke-2 w-6  fill-zinc-600
+  }
+  .textColors{
+    @apply group-hover:text-teal-600 dark:group-hover:text-teal-300
+   }
+   .sectionHeading{
+    @apply leading-tight text-[35px] md:text-[52px] font-bold;
+   }
+   .subText{
+    @apply text-[18px] leading-7 dark:text-gray-400 
+   }
+
+}
