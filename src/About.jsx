@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from './assets/pic.jpeg'
 import { contacts, socials } from './assets/constants/sections'
-import resume from './assets/resume_july.pdf'
+import resume from './assets/resume.pdf'
 function About() {
   return (
     <div  className='grid lg:grid-rows-2 gap-6 grid-cols-1 lg:grid-cols-2'>
